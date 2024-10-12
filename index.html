@@ -96,7 +96,7 @@
 
             // Listen for messages from the iframe
             window.addEventListener('message', function (event) {
-                if (event.origin !== 'https://en.gdplayertv.to') return; // Change this to the actual origin if needed
+                if (event.origin !== 'https://enx.gdplayertv.to') return; // Change this to the actual origin if needed
                 if (event.data && event.data.type === 'prevent-open') {
                     alert('Blocked a new tab from opening.');
                 }
